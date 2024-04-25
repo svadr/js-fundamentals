@@ -9,4 +9,14 @@ console.log(hello)
 
 var hello = "hello2"
 
+someFunc()
 
+function someFunc() {
+    var plop = "plop"
+    console.log(plop)
+}
+
+console.log(foo)
+var foo = function() {
+    console.log("foo")
+}
